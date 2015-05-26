@@ -917,7 +917,9 @@ colorsArray = compileFinal str
 			["Sierra Whiskey Wild Dogs", _texDir + "swwd.jpg"],
 			["Skulls", _texDir + "skulls.jpg"],
 			["Zebra", _texDir + "zebra.jpg"],
-			["Hello Kitty", _texDir + "kitty.jpg"]
+			["Hello Kitty", _texDir + "kitty.jpg"],
+			["Sweden", _texDir + "sweden.jpg"],
+			["DADS", _texDir + "dads.jpg"]
 			
 		]
 	],
