@@ -90,3 +90,4 @@ if (hasInterface || isServer) then
 
 [] execVM "addons\scripts\intro.sqf";						// Welcome intro
 };
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; // Epoch StatusBar
