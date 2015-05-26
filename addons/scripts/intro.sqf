@@ -3,13 +3,15 @@ sleep 90;
 private ["_messages", "_timeout"];
 
 _messages = [
-	["NLU", "NL United A3Wasteland"],
+	["DADS", "DADS A3Wasteland"],
 	["Welcome", (name player)],
-	["A3Wasteland", worldName],
-	["Teamspeak", "ts.nl-united.nl"],
-	["Website/Forums", "www.nl-united.nl"],
-	["Saving", "Check the Server Rules to see saving times."],
-	["ATM / Bank", "You can use any ATM found in Altis."],
+	["Repeatedly Teamkill", "24h BAN"],
+	["Combat Logging", "24h BAN"],
+	["DONT", "Build around Vendors"],
+	["Teamspeak3", "Info on map"],
+	["Website/Forums", "www.dadsarmy.se"],
+	["This server accept", "BLASTCORE Phoenix/DragonFyre/CBA3"],
+	["Server", "X99 I7-5820k@4.7ghz 32gig SSD Intel M.2"],
 	["Earplugs", "Put in your earplugs by using the END key."]
 ];
 
