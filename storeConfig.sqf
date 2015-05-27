@@ -105,8 +105,8 @@ lmgArray = compileFinal str
 
 launcherArray = compileFinal str
 [
-	["RPG-42 Alamut", "launch_RPG32_F", 1400],
-	["PCML", "launch_NLAW_F", 1800],
+	["RPG-42 Alamut", "launch_RPG32_F", 5400],
+	["PCML", "launch_NLAW_F", 9200],
 	["Titan MPRL Compact (Tan)", "launch_Titan_short_F", 12500],
 	["Titan MPRL Compact (Brown)", "launch_O_Titan_short_F", 12500],
 	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 12500],
@@ -216,12 +216,12 @@ ammoArray = compileFinal str
 	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 100],
 	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 150],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 75], //DLC Ammo
-	["RPG-42 Anti-Tank Rocket", "RPG32_F", 3000],              // Direct damage: high      | Splash damage: low    | Guidance: none
-	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 1750],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-	["PCML Anti-Tank Missile", "NLAW_F", 10000],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 14000],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-	["Titan Anti-Personnel Missile", "Titan_AP", 17500],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-	["Titan Anti-Air Missile", "Titan_AA", 15000],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
+	["RPG-42 Anti-Tank Rocket", "RPG32_F", 1200],              // Direct damage: high      | Splash damage: low    | Guidance: none
+	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 1100],      // Direct damage: medium    | Splash damage: medium | Guidance: none
+	["PCML Anti-Tank Missile", "NLAW_F", 1400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
+	["Titan Anti-Tank Missile", "Titan_AT", 1650],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
+	["Titan Anti-Personnel Missile", "Titan_AP", 1600],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
+	["Titan Anti-Air Missile", "Titan_AA", 1600],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
 	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 125],
 	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 250],
 	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
@@ -1006,10 +1006,10 @@ customPlayerItems = compileFinal str
 	["Water Bottle", "water", localize "STR_WL_ShopDescriptions_Water", "client\icons\waterbottle.paa", 30, 15],
 	["Canned Food", "cannedfood", localize "STR_WL_ShopDescriptions_CanFood", "client\icons\cannedfood.paa", 30, 15],
 
-	["LSD", "lsd", localize "STR_WL_ShopDescriptions_LSD", "client\icons\lsd.paa", 12500, 6250],
-	["Marijuana", "marijuana", localize "STR_WL_ShopDescriptions_Marijuana", "client\icons\marijuana.paa", 10000, 5000],
-	["Cocaine", "cocaine", localize "STR_WL_ShopDescriptions_Cocaine", "client\icons\cocaine.paa", 14000, 7000],
-	["Heroin", "heroin", localize "STR_WL_ShopDescriptions_Heroin", "client\icons\heroin.paa", 15000, 7500],
+	["LSD", "lsd", localize "STR_WL_ShopDescriptions_LSD", "client\icons\lsd.paa", 80000, 60000],
+	["Marijuana", "marijuana", localize "STR_WL_ShopDescriptions_Marijuana", "client\icons\marijuana.paa", 40000, 30000],
+	["Cocaine", "cocaine", localize "STR_WL_ShopDescriptions_Cocaine", "client\icons\cocaine.paa", 85000, 65000],
+	["Heroin", "heroin", localize "STR_WL_ShopDescriptions_Heroin", "client\icons\heroin.paa", 90000, 70000],
 
 	["Repair Kit", "repairkit", localize "STR_WL_ShopDescriptions_RepairKit", "client\icons\briefcase.paa", 750, 375],
 	["Jerry Can (Full)", "jerrycanfull", localize "STR_WL_ShopDescriptions_fuelFull", "client\icons\jerrycan.paa", 150, 75],
