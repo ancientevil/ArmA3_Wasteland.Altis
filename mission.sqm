@@ -135,7 +135,7 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="DADS A3Wasteland Altis v1.1b";
+		briefingName="DADS A3Wasteland Altis v1.2";
 		overviewText="Wasteland survival sandbox by DADS - visit www.dadsarmy.se for more details. Teamspeak: ts1.dadsarmy.se";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
