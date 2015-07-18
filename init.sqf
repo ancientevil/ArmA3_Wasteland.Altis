@@ -98,5 +98,5 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvD.sqf"; 							// High Value Drugrunner
 	[] execVM "addons\Grenades\ToxicGas.sqf"; 					// Toxic Gas Addon
 	[] execVM "addons\scripts\intro.sqf";						// Welcome intro
-	[] execVM "addons\statusBar\statusbar.sqf"};                //Statusbar
 };
+if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; // Epoch StatusBar
