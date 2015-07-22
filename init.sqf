@@ -99,5 +99,5 @@ if (hasInterface || isServer) then
 	[] execVM "addons\Grenades\ToxicGas.sqf"; 					// Toxic Gas Addon
 	[] execVM "addons\scripts\intro.sqf";						// Welcome intro
 	[] execVM "addons\meanyfps\firstperson.sqf";				// Meany firstperson script added by ancientevil
+	[] execVM "addons\statusBar\statusbar.sqf"; // Status Bar
 };
-if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; // Epoch StatusBar

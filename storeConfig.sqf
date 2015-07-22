@@ -1041,8 +1041,4 @@ customPlayerItems = compileFinal str
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
 
 storeConfigDone = compileFinal "true";
-];
 
-call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
-
-storeConfigDone = compileFinal "true";
