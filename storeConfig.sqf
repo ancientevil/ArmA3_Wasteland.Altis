@@ -939,7 +939,8 @@ colorsArray = compileFinal str
 			["Weed", _texDir + "weed.paa"],
 			["Woodland", _texDir + "woodland.paa"],
 			["Woodland Dark", _texDir + "wooddark.paa"],
-			["Woodland Tiger", _texDir + "woodtiger.paa"]
+			["Woodland Tiger", _texDir + "woodtiger.paa"],
+			["DADS", _texDir + "dads.paa"]
 		]
 	],
 	[ // Kart colors
