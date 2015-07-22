@@ -941,7 +941,19 @@ colorsArray = compileFinal str
 			["Woodland Dark", _texDir + "wooddark.paa"],
 			["Woodland Tiger", _texDir + "woodtiger.paa"],
 			["DADS", _texDir + "dads.paa"],
-			["SWEDEN", _texDir + "sweden.paa"]
+			["SWEDEN", _texDir + "sweden.paa"],
+			["Barbie", _texDir + "barbie.paa"],
+			["Bricks", _texDir + "bricks.paa"],
+			["Funky", _texDir + "funky.paa"],
+			["garbage", _texDir + "garbage.paa"],
+			["genetic", _texDir + "genetic.paa"],
+			["Germany", _texDir + "germany.paa"],
+			["Grassy", _texDir + "grassy.paa"],
+			["Mars", _texDir + "mars.paa"],
+			["Russia", _texDir + "russia.paa"],
+			["Snowy", _texDir + "snowy.paa"],
+			["Sphere", _texDir + "sphere.paa"],
+			["Stars", _texDir + "stars.paa"]
 		]
 	],
 	[ // Kart colors
