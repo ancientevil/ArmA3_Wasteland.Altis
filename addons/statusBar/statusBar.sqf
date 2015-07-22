@@ -38,6 +38,6 @@ _rscLayer cutRsc["osefStatusBar","PLAIN"];
 		case 0: {_minutes = "00"};
 	};
 		
-		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["DADS #2 Realistic Altis | PLAYERS ONLINE: %2 | AVERAGE FPS: %1", round diag_fps, count playableUnits];
+		((uiNamespace getVariable "osefStatusBar")displayCtrl 1000)ctrlSetText format["DADS #2 HARDCORE Altis | PLAYERS ONLINE: %2 | AVERAGE FPS: %1", round diag_fps, count playableUnits];
 	}; 
 };
