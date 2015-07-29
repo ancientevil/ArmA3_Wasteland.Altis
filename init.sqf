@@ -51,7 +51,7 @@ if (!isDedicated) then
 			waitUntil {!isNull player};
 			player setVariable ["playerSpawning", true, true];
 			playerSpawning = true;
-			
+
 			removeAllWeapons player;
 			client_initEH = player addEventHandler ["Respawn", { removeAllWeapons (_this select 0) }];
 
@@ -98,5 +98,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvD.sqf"; 							// High Value Drugrunner
 	[] execVM "addons\Grenades\ToxicGas.sqf"; 					// Toxic Gas Addon
 	[] execVM "addons\scripts\intro.sqf";						// Welcome intro
+	[] execVM "addons\meanyfps\firstperson.sqf";				// Meany firstperson script added by ancientevil
+	[] execVM "addons\statusBar\statusbar.sqf"; // Status Bar
 };
 if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; // Epoch StatusBar

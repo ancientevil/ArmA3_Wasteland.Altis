@@ -297,7 +297,7 @@ accessoriesArray = compileFinal str
 	["Kahlia (Old) [DLC]", "optic_KHS_old", 500, "item"], // DLC Item
 	["Kahlia (Tan) [DLC]", "optic_KHS_tan", 500, "item"], // DLC Item
 	["LRPS", "optic_LRPS", 750, "item"],
-	["NVS", "optic_NVS", 1500, "item"],
+	["NVS", "optic_NVS", 1500, "item"]
 	["TWS", "optic_tws", 27500, "item"],
 	["TWS MG", "optic_tws_mg", 18500, "item"],
 	["Nightstalker", "optic_Nightstalker", 30000, "item"]
@@ -651,7 +651,7 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
-	["Base Re-Locker-non destroyable", "Land_Portable_generator_F", 300000, "object"],  //Cael817, SNAFU,Used for base operations <-- Non destroyable
+	//["Base Re-Locker", "Land_Portable_generator_F", 100000, "object"],  //Cael817, SNAFU,Used for base operations <-- Non destroyable
 	["Base Locker", "Land_Device_assembled_F", 50000, "object"],  //Cael817, SNAFU,Used for base operations <-- Destroyable
 	["Safe (PIN IS EMPTY)", "Box_NATO_AmmoVeh_F", 50000, "ammocrate"],
 	["Empty Ammo Crate", "Box_NATO_Ammo_F", 1200, "ammocrate"],
@@ -867,6 +867,11 @@ noColorVehicles = compileFinal str
 	// Deprecated
 ];
 
+noColorVehicles = compileFinal str
+[
+	// Deprecated
+];
+
 rgbOnlyVehicles = compileFinal str
 [
 	// Deprecated
@@ -936,7 +941,21 @@ colorsArray = compileFinal str
 			["Weed", _texDir + "weed.paa"],
 			["Woodland", _texDir + "woodland.paa"],
 			["Woodland Dark", _texDir + "wooddark.paa"],
-			["Woodland Tiger", _texDir + "woodtiger.paa"]
+			["Woodland Tiger", _texDir + "woodtiger.paa"],
+			["DADS", _texDir + "dads.paa"],
+			["SWEDEN", _texDir + "sweden.paa"],
+			["Barbie", _texDir + "barbie.paa"],
+			["Bricks", _texDir + "bricks.paa"],
+			["Funky", _texDir + "funky.paa"],
+			["garbage", _texDir + "garbage.paa"],
+			["genetic", _texDir + "genetic.paa"],
+			["Germany", _texDir + "germany.paa"],
+			["Grassy", _texDir + "grassy.paa"],
+			["Mars", _texDir + "mars.paa"],
+			["Russia", _texDir + "russia.paa"],
+			["Snowy", _texDir + "snowy.paa"],
+			["Sphere", _texDir + "sphere.paa"],
+			["Stars", _texDir + "stars.paa"]
 		]
 	],
 	[ // Kart colors
@@ -1033,7 +1052,7 @@ customPlayerItems = compileFinal str
 	["Spawn Beacon", "spawnbeacon", localize "STR_WL_ShopDescriptions_spawnBeacon", "client\icons\spawnbeacon.paa", 5000, 2500],
 	//["Camo Net", "camonet", localize "STR_WL_ShopDescriptions_Camo", "client\icons\camonet.paa", 200, 100],
 	["Syphon Hose", "syphonhose", localize "STR_WL_ShopDescriptions_SyphonHose", "client\icons\syphonhose.paa", 200, 100],
-	//["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],
+	["Energy Drink", "energydrink", localize "STR_WL_ShopDescriptions_Energy_Drink", "client\icons\energydrink.paa", 100, 50],
 	["Warchest", "warchest", localize "STR_WL_ShopDescriptions_Warchest", "client\icons\warchest.paa", 1000, 500],
 	
 	["IP/Net Camera", "cctv_camera", localize "STR_WL_ShopDescriptions_CCTV_Camera", "addons\cctv\icons\camcorder.paa", 7850, 5500],
@@ -1043,3 +1062,4 @@ customPlayerItems = compileFinal str
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
 
 storeConfigDone = compileFinal "true";
+
